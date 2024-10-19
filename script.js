@@ -1,5 +1,5 @@
 var pet = {
-    name: "bob",
+    name: "don",
     type: "dragon",
     age: 2,
     happiness: 85,
