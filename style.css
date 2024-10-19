@@ -18,10 +18,13 @@ body{
 }
 button{
     padding: 10px 10px;
-    box-shadow: 10px 10px 10px 10px rgb(131, 59, 212);
+    box-shadow: 5px 5px 5px 5px rgb(74, 151, 196);
+    margin-top: 20px;
+    border-radius: 8px;
 }
 .btn{
     display: flex;
+    margin: 0 auto;
     gap: 50px;
 }
 
