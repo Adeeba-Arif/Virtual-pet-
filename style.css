@@ -29,6 +29,7 @@ button{
     box-shadow: 5px 5px 5px 5px rgb(74, 151, 196);
     margin-top: 20px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .btn{
     display: flex;
