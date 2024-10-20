@@ -8,17 +8,26 @@
 </head>
 <body>
     <div class="container">
-        <h1>Meet My Don</h1>
-        <img src="./img/dragon.png" alt="">
-        <div class="userinput">
-            <h3>Select Actions For My Pet</h3>
+        <h1>Select your pet</h1>
+        <div class="gallery">
+            <img src="./img/cat.png" alt="Image 1" onclick="swapImage('./img/cat.png')">
+            <img src="./img/dog.png" alt="Image 2" onclick="swapImage('./img/dog.png')">
+            <img src="./img/dragon.png" alt="Image 3" onclick="swapImage('./img/dragon.png')">
         </div>
-        <div class="btn">
-            <button onclick="pet.feed()">Feed</button>
-            <button onclick="pet.play()">Play</button>
-            <button onclick="pet.agePet()">Mixed Actions</button>
+        <div class="combo">
+            <div class="userinput">
+                <img id="mainImage" class="main-image" src="./img/cat.png" alt="Main Image">
+            </div>
+            <div class="btn">
+                <h3>Select Actions </h3>
+                <button onclick="pet.feed()">Feed</button>
+                <button onclick="pet.play()">Play</button>
+                <button onclick="pet.agePet()">Mixed Actions</button>
+            </div>
         </div>
     </div>
+        
+       
     <script src="./script.js"></script>
 </body>
 </html>

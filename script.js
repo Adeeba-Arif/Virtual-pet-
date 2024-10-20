@@ -30,3 +30,9 @@ var pet = {
         };
     }
 }
+function swapImage(newImageSrc) {
+    var mainImage = document.getElementById("mainImage");
+    mainImage.src = newImageSrc;
+    // alert(prompt("What is the name of your Pet?"))
+    // alert(prompt("What is the age of your Pet?"))
+  }

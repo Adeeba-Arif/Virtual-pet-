@@ -26,14 +26,45 @@ h3{
 }
 button{
     padding: 10px 10px;
-    box-shadow: 5px 5px 5px 5px rgb(74, 151, 196);
-    margin-top: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(164, 115, 221);
     border-radius: 8px;
     cursor: pointer;
+    font-weight: bolder;
+    border: none;
+}
+.gallery {
+    display: flex;
+    margin-left: -100px;
+}
+.gallery img {
+    width: 80px;
+    height: 150px;
+    cursor: pointer;
+}
+.main-image {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    margin-top: -30px;
+    margin-left: 100px;
+}
+
+.combo{
+    display: flex;
 }
 .btn{
+    padding-top: 100px;
+    padding-left: 100px;
     display: flex;
-    margin: 0 auto;
-    gap: 50px;
+    flex-direction: column;
+    gap: 20px;
+}
+button:hover{
+    background-color: rgb(164, 115, 221);
+    box-shadow: none;
+}
+.btn h3{
+    font-size: larger;
+    margin-bottom: 20px;
 }
 
